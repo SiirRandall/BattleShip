@@ -5,7 +5,7 @@ import subprocess as sp
 board = []
 board_size = int(raw_input("What do you want the board size to be?: "))
 tmp = sp.call('clear',shell=True)
-# Define the ship size and init the x and y cords for ship
+#Define the ship size and init the x and y cords for ship
 ship_carrier_size = 5
 ship_carrier_x = []
 ship_carrier_y = []
